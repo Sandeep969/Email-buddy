@@ -75,13 +75,12 @@ module.exports = function(app, passport){
   
    host: 'smtp.gmail.com',
    port: 587,
-   auth: {  XOAuth2: {
-      user: "sunnysandeep1900@gmail.com", // Your gmail address.
+   auth: { 
+      user: "sunnysandeep1900@gmail.com",
+      pass: "sandeep@1996" // Your gmail address.
                                             // Not @developer.gserviceaccount.com
-      clientId: "221154299124-armq8gqi869ll48j6o09ru9srta9khjs.apps.googleusercontent.com",
-      clientSecret: "aUSy_6aRlg7D7Y7P4Xa6syb9",
-      refreshToken: "1/WLUMd9j_iQkRyZS6ZjqVczfiE8eI-JzYyezE4Y05Dy4"
-    } }
+      
+    } 
   }));
    transporter.sendMail({
     from: 'SANDEEP REDDY <sunnysandeep1900@gmail.com>',
