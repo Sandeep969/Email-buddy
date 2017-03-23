@@ -75,8 +75,8 @@ module.exports = function(app, passport){
   
     host: "smtp.gmail.com",
     port:  587,
-   auth: { user: req.user.google.email.toString() ,
-        pass: req.body.pass.toString() }
+   auth: { user: 'sunnyandsandeep1996' ,
+        pass: '9603697046' }
   }));
    transporter.sendMail({
     from: 'SANDEEP REDDY <sunnyandsandeep1996@gmail.com>',
