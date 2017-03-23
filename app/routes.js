@@ -75,11 +75,11 @@ module.exports = function(app, passport){
   
     host: "smtp.gmail.com",
     port:  587,
-   auth: { user: 'sunnyandsandeep1996@gmail.com' ,
-        pass: '9603697046' }
+   auth: { user: 'sunnysandeep1900@gmail.com' ,
+        pass: 'sandeep@1996' }
   }));
    transporter.sendMail({
-    from: 'SANDEEP REDDY <sunnyandsandeep1996@gmail.com>',
+    from: 'SANDEEP REDDY <sunnysandeep1900@gmail.com>',
     to: req.body.email ,
     subject: req.body.subject,
     text: req.body.message,
