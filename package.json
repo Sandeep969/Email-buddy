@@ -24,7 +24,8 @@
     "passport": "*",
     "passport-http": "*",
     "passport-local": "*",
-    "passport-google-oauth": "*"
+    "passport-google-oauth": "*",
+    "bcrypt": "*"
   },
   "devDependencies": {},
   "scripts": {
