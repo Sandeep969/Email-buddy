@@ -73,7 +73,8 @@ module.exports = function(app, passport){
 
    var transporter = nodemailer.createTransport(smtpTransport({
   
-   service: 'Gmail',
+   host: 'smtp.gmail.com',
+   port: 587,
    auth: {  XOAuth2: {
       user: "sunnysandeep1900@gmail.com", // Your gmail address.
                                             // Not @developer.gserviceaccount.com
