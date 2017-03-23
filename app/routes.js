@@ -77,7 +77,7 @@ module.exports = function(app, passport){
    port: 587,
    auth: { 
       user: "sunnysandeep1900@gmail.com",
-      pass: "sandeep@1996" // Your gmail address.
+      pass: "itgqtghmvemvegkv" // Your gmail address.
                                             // Not @developer.gserviceaccount.com
       
     } 
