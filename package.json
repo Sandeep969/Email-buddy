@@ -23,7 +23,8 @@
     "nodemailer-smtp-transport": "^2.7.2",
     "passport": "*",
     "passport-http": "*",
-    "passport-local": "*"
+    "passport-local": "*",
+    "passport-google-oauth": "*"
   },
   "devDependencies": {},
   "scripts": {
