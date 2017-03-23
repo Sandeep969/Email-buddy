@@ -1,6 +1,6 @@
 var user = require('./models/user');
 var mongoose = require('mongoose');
-var data =  require('./models/email');
+var email =  require('./models/email');
 var nodemailer = require('nodemailer');
 
 var smtpTransport = require('nodemailer-smtp-transport');
